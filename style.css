@@ -1,0 +1,67 @@
+.container{
+    border: 5px;
+    background-color: aquamarine;
+    width: 500px;
+    height: 500px;
+    border: 5px;
+    border-radius: 40px;
+    box-shadow: 1px 1px 111px 1px rgb(83, 79, 82) inset;
+}
+h1{
+    text-align: center;
+}
+div{
+    background-color: rgb(44, 150, 141);
+}
+#btnAjouter,#btnAfficher,#btnSuprimmer,#btnRecherche,#btnModifier{
+    background-color: brown;
+    border-radius: 5px;
+    align-items: center;
+    margin: 5px;
+    text-align: center;
+    color: aliceblue;
+    box-shadow: 3px 3px  rgb(47, 190, 107);
+}
+.zoneRecherche{
+    margin: auto;
+    padding: 5px;
+    display: block;
+    text-align: center;
+    height: 36px;
+}
+.zoneRecherche input{
+    margin: auto;
+    box-shadow: 3px 3px  rgb(47, 190, 107);
+}
+.buttons{
+    padding: 15px;
+    text-align: center;
+    border-radius: 22px;
+    margin: 20px;
+    /* justify-content: space-between; */
+    background-color: rgb(6, 71, 50);
+}
+th{
+     text-align: right; 
+     margin-left: 10px;
+}
+table{
+    width: 100%;
+}
+tr{
+    text-align: center;
+    background-color: rgb(47, 30, 63);
+    color: antiquewhite;
+
+}
+th{
+    text-align: center;
+    background-color: blueviolet;
+}
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(74, 87, 82);
+}

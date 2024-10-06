@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Système de Gestion de Contacts</h1>
+    <div>
+        <hr><hr><hr><hr>
+        <table >
+            <tr>
+                <th><label for="Nom" >Nom</label></th>
+                <th><input type="text" id="txtNom" value=""></th>
+            </tr>
+            <tr>
+                <th><label for="telefone" > Numéro de téléphone</label></th>
+                <th><input type="text" id="txttelefone" value=""></th>
+            </tr>
+            <tr>
+                <th><label for="email"  >  Adresse e-mail</label></th>
+                <th><input type="text" id="txtemail" value=""></th>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div class="zoneRecherche">
+    <input id="recherche" type="text"  placeholder="Rechercher un contact...">
+    </div>
+    <div class="buttons">
+    <input id="btnAjouter" type="button" value="Ajouter Contact">
+    <input id="btnAfficher" type="button" value="Afficher Contact">
+    <input id="btnSuprimmer" type="button" value="Suprimmer Contact">
+    <input id="btnRecherche" type="button" value="Rechercher Contact">
+    <input id="btnModifier" type="button" value="Modifier Contact">
+</div>
+    
+    <hr><hr><hr><hr>
+
+    <table id = "TableAffiche" border="2">
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Telefon</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
